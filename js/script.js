@@ -1,10 +1,4 @@
-/* Register Button alert message
-function register(){
-	if((order.uname.value != "") && (order.password.value != "") && (order.number.value != "")){
-		
-	}
-}*/
-
+/** Register (Mihoko) **/
 /* Register Button alert message*/
 function validate() {    
     var fname = document.register.fname;    
@@ -24,8 +18,8 @@ function validate() {
         lname.focus();    
         return false;    
     }
-	else if(checked_gender == null){  //Test if something was checked
-		alert('Gender needs to be selected '); //Alert, nothing was checked.			
+	else if(checked_gender == null){
+		alert('Gender needs to be selected ');		
 	    return false;
 	}
     else if (address.value.length <= 0) {    
@@ -45,6 +39,5 @@ function validate() {
 	}
 	else{
 		alert("Thank you for your register!!!\nDiscount code is JINGLE BELL :)");
-		//document.myform.action = "../index.html";
 	}
 }
