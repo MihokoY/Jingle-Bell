@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Josefin+Sans:wght@600&family=Open+Sans&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Josefin+Sans:wght@600&family=Open+Sans&family=Roboto:wght@700&family=Silkscreen&display=swap');
+
+/** Header **/
+body{
+	background-color: #F7FFF3;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+.header_h1 {
+	background-color: #699352;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Diplomata SC', cursive;
+	text-align: center;
+	margin-top : 0;
+	margin-bottom : 0;
+}
+
+.header_ul {
+	display: flex;
+	justify-content: center;
+  
+}
+.header_li {
+	list-style: none;
+}
+
+.header_a {
+	color: #699352;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 50px;
+}
+
+.header_nav {
+	width: 100%;
+	background-color: #F7FFF3;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+.header_div {
+	width: 100%;
+	height :25px;
+	overflow: hidden;
+	background-color: #699352;
+}
+
+.header_p {
+	line-height: 25px;
+	background-color: #699352;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	animation: flowing 20s linear infinite;
+}
+@keyframes flowing {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+/** Homepage (Mihoko) **/
+/* Top Image */
+.a_img1 {
+	width: 100%;
+}
+
+/* Title of "News", "New Arrivals", "Find Our Stores" */
+.a_h2_1, .a_h2_2, .a_h2_3 {
+	background-color: #699352;
+	color: white;
+	padding :10px;
+	margin :0;
+}
+
+/* Div tag of "News", "New Arrivals", "Find Our Stores" */
+.a_div1, .a_div2, .a_div3 {
+	display: flex;
+	padding :15px 15px 30px;
+	background-color: #F7FFF3;
+}
+
+/* News */
+.a_img2 {
+	width: 90%;
+}
+.a_fig1 {
+	width: 50%;
+}
+.a_div1_2 {
+	width: 50%;
+	padding-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.a_p1_1 {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+.a_p1_2, .a_p1_4 {
+	margin-top: 20px;
+}
+
+/* New Arrivals */
+.a_ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type:square;
+}
+.a_li1, .a_li2, .a_li3, .a_li4 {
+	width: 23%;
+}
+.a_img3, .a_img4, .a_img5, .a_img6 {
+	width: 100%;
+}
+
+.a_p2_1, .a_p3_1, .a_p4_1, .a_p5_1 {
+    font-size: 20px;
+	font-weight: bold;
+}
+.a_p2_2, .a_p2_3, .a_p3_2, .a_p3_3, .a_p4_2, .a_p4_3, .a_p5_2, .a_p5_3 {
+	font-weight: bold;
+}
+
+/* Find Our Stores */
+.a_div3_2 {
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+.a_fig2 {
+	width: 50%;
+}
+.a_img7 {
+	width: 100%;
+}
+.a_p6_1, .a_p6_3, .a_p6_5 {
+	font-size: 25px;
+	font-weight: bold;	
+}
+.a_p6_3, .a_p6_5 {
+	margin-top: 20px;
+}
+
+
+
+/** Register (Mihoko) **/
+.b_div {
+	background-color: #F7FFF3;
+	margin-bottom : 5px;
+}
+.b_div2 {
+	margin: auto;
+	width: 100%;
+	padding : 2% 10% 5%;
+	background: rgba(255,255,255,0.6);
+}
+.b_form {
+    margin: auto;
+	width: 80%;
+	padding : 2% 5% 2%;
+	background-image: url("../images/register.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.b_header {
+	text-align: center;
+	font-weight: bold; 
+}
+
+/* Button */
+.b_button1 {
+	background: #699352;
+	color: #F7FFF3;
+	padding: 10px 20px; 
+	border-radius:5px; 
+	font-weight: bold;
+	border: 2px solid #F7FFF3;
+}
+
+.b_button2 {
+	background: #F7FFF3; 
+	color: #699352;
+	padding: 10px 20px; 
+	border-radius:5px; 
+	font-weight: bold;
+	border: 2px solid #699352;
+	margin-left: 5px;
+}
+.b_button1:hover, .b_button2:hover {
+  opacity: 0.8;
+}
+
+
+
+
+/** Footer **/
+footer {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #699352;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer_div {
+	display: flex;
+}
+.footer_div2 {
+	width: 25%;
+	padding-left: 40px;
+}
+.footer_p1 {
+	font-size: 16px;
+}
+.footer_p2 {
+	font-size: 12px;
+	color: white;
+}
+.footer_img {
+	width: 80%;
+}
+.footer_img2 {
+	width: 15px;
+}
+.footer_copyright{
+	text-align: center;	
+}
