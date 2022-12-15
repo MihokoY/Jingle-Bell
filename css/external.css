@@ -211,7 +211,6 @@ header {
 }
 #slider #prev:hover, #slider #next:hover {
   background-color: rgba(0, 0, 0, 0.5);
-  text-shadow: 0;
 }
 #slider #prev {
   left: 10px;
