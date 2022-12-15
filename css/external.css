@@ -220,6 +220,8 @@ header {
   right: 10px;
 }
 
+
+
 .c_OurHistory {
   background-color:#F7FFF3;
   font-family:cursive;
@@ -583,7 +585,7 @@ header {
   border-radius: 3px;
 }
 
-input {
+.d_input {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
@@ -591,7 +593,7 @@ input {
   border-radius: 3px;
 }
 
-label {
+.d_label {
   margin-bottom: 10px;
   display: block;
 }
@@ -625,25 +627,28 @@ label {
 }
 
 
-select{
+.d_code-dropdown{
 	 appearance: none;
         outline: 0;
-        background: aqua;
+        color: aqua;
       
-        width: 30%;
+        width: 20%;
         height: 100%;
-        color: grey;
+        color: gray;
         cursor: pointer;
-        border: 1px solid black;
+        border: 1px solid aqua;
         border-radius: 3px;
 		position:relative;
 		top:-2px;
 		left: 700px;
 }
 
-button{
-	width:100%;
-	background-color:#699352;
+.d_button{
+	width:200px;
+
+	color:black;
+	font-family: cursive;
+	border:1px;
 }
 
 
