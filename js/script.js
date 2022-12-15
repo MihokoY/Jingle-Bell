@@ -41,3 +41,9 @@ function validate() {
 		alert("Thank you for your register!!!\nDiscount code is JINGLE BELL :)");
 	}
 }
+
+/** product-detail (Wanpin) **/
+/*--product-detail- alrms--*/
+function tree3(select){
+    alert("Please make sure: This is biggest tree");
+   }
