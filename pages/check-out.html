@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jingle Bell Shop</title>
+
+
+  <link rel="stylesheet" href="../css/external.css">
+  <link rel="stylesheet" href="../css./bootstrap.css">
+  <script src="../js/jquery-3.6.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <!--header start-->
+
+  <header>
+    <h1 class="header_h1">Jingle Bell Shop</h1>
+    <nav class="header_nav">
+      <ul class="header_ul">
+        <li class="header_li"><a href="../index.html" class="header_a">Home</a></li>
+        <li class="header_li"><a href="../pages/pdtlist.html" class="header_a">Products</a></li>
+        <li class="header_li"><a href="../pages/aboutus.html" class="header_a">About us</a></li>
+        <li class="header_li"><a href="../pages/myorder.html" class="header_a">My order</a></li>
+
+        <li class="header_li"><a href="../pages/register.html" class="header_a">Register</a></li>
+
+      </ul>
+    </nav>
+    <div class="header_div">
+      <p class="header_p">Up to 50% off sale!!!</p>
+    </div>
+  </header>
+  <!--header-close-->
+
+
+
+
+
+  <div class="d_row">
+    <div class="d_col-75">
+      <div class="d_container">
+        <form action="/action_page.php">
+          <div class="d_row">
+            <div class="d_col-50">
+              <h3>Address Info</h3>
+               <label class= "d_label" for="fname"><i class="fa fa-user"></i> Full Name</label>
+             <input class= "d_input" type="text" id="fname" name="firstname" placeholder="Tom M.Ferry">
+               <label class= "d_label" for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input class= "d_input" type="text" id="email" name="email" placeholder="Tom@example.com">
+               <label class= "d_label" for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+             <input class= "d_input" type="text" id="adr" name="address" placeholder="212 Collins. 5th Avenue">
+     <label class= "d_label" for="city"><i class="fa fa-institution"></i> City</label>
+            <input class= "d_input" type="text" id="city" name="city" placeholder="New York">
+
+              <div class="d_row">
+                <div class="d_col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="NY">
+                </div>
+                <div class="d_col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001">
+                </div>
+              </div>
+            </div>
+
+            <div class="d_col-50">
+              <h3>Payment</h3>
+                 <label class= "d_label" for="fname">Accepted Cards</label>
+              <div class="d_cards">
+                <div class="d_cards"><img src="../images/card_img.jpg" class="d_card" alt="Cards">
+
+
+                  <!--Promo-code dropdown-list-Start-->
+                  <select id="PromoCode">
+                    <option value="0">select option</option>
+                    <option value="1">JingleBell</option>
+                  </select>
+                  <!--Promo-code dropdown-list-Close-->
+
+                </div>
+              </div>
+
+              
+              <label class= "d_label" for="cname">Name on Card</label>
+              <input class= "d_input" type="text" id="cname" name="cardname" placeholder="Tom Ferry">
+             <label class= "d_label" for="ccnum">Credit card number</label>
+               <input class= "d_input" type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label class= "d_label" for="expmonth">Exp Month</label>
+               <input class= "d_input" type="text" id="expmonth" name="expmonth" placeholder="January">
+			
+
+              <div class="d_row">
+                <div class="d_col-50">
+                  <label class= "d_label" for="expyear">Exp Year</label>
+                  <input class= "d_input" type="text" id="expyear" name="expyear" placeholder="2024">
+                </div>
+                <div class="d_col-50">
+                  <label class= "d_label" for="cvv">CVV</label>
+                 <input class= "d_input" type="text" id="cvv" name="cvv" placeholder="###">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+           
+        
+		    <select class= "d_code-dropdown" id="code-dropdown">
+            <option value="0">Click here and get the PromoCode</option>
+            <option value="1">JingleBell</option>
+          </select>
+		  
+		  
+
+          <!--PromoCode-AlertMessage-->
+          <script>
+
+            var a = document.getElementById('code-dropdown');
+            a.addEventListener('change', function () {
+              var b = document.querySelectorAll('option:checked');
+              for (var i = 0; i < b.length; i++) {
+                if (b[i].value == 1) {
+                  alert('Congratulations! You get 50% OFF your purchase')
+                }
+              }
+            });
+          </script>
+
+          <!--Checkout-Button-AlertMessage-->
+		
+          <button class="d_button" onclick="myFunction()"> Continue to check out</button>
+		  
+		 
+		  
+          <script>
+            function myFunction() {
+              alert("Your order placed successfully!");
+            }
+          </script>
+		 
+
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer_div">
+      <div class="footer_div2">
+        <p class="footer_p1">Where to find us</p>
+        <img class="../footer_img" src="../images/Address.jpg" alt="Map">
+      </div>
+      <div class="footer_div2">
+        <p class="footer_p1">Contact</p>
+        <p><a class="footer_p2" href="mailto:JingleBell@gmail.com">Jinglebell@gmail.com</a></p>
+        <p class="footer_p2">+353 987 9658</p>
+        <p class="footer_p2">8:00am - 4:00pm</p>
+        <p class="footer_p2">Monday - Friday</p>
+        <p class="footer_p2">Mayor Street Lower, International Financial Services Centre, Dublin 15</p>
+      </div>
+      <div class="footer_div2">
+        <p class="footer_p1">About Us</p>
+        <p><a href="../pages/about-us.html#c_OurHistory" class="footer_p2">Our History</a></p>
+        <p><a href="../pages/about-us.html#c_SeasonalOffer" class="footer_p2">Seasonal Offer</a></p>
+        <p><a href="../pages/about-us.html#c_Delivery" class="footer_p2">Delivery</a></p>
+      </div>
+      <div class="footer_div2">
+        <p class="footer_p1"> Get Social</p>
+        <p class="footer_p2"><img src="../images/fb.jpg" class="footer_img2" alt="Facebook"> Facebook</p>
+        <p class="footer_p2"><img src="../images/ig.jpg" class="footer_img2" alt="Instagram"> Instagram </p>
+        <p class="footer_p2"><img src="../images/twt.jpg" class="footer_img2" alt="Twitter"> Twitter</p>
+      </div>
+    </div>
+    <p class="footer_copyright"> ©2022 Jingle Bell, Inc. All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>
