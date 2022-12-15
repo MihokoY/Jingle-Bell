@@ -366,6 +366,7 @@ header {
 
 }
 /*--page number--*/
+/*--page number--*/
 .h_end{
     display: flex;
     margin: 60px 350px 250px 360px;
@@ -377,7 +378,7 @@ header {
     margin: 20px 100px 20px 50px;
 }
 
-.over,.pageItem{
+.h_over,.h_pageItem{
     float: left;
     display: block;
     width: 35px;
@@ -386,23 +387,23 @@ header {
     text-align: center;
 }
 
-.pageItem{
+.h_pageItem{
     border: 1px solid #699352;
     text-decoration: none;
     color: dimgrey;
 }
-.pageItem:hover{
+.h_pageItem:hover{
     background-color: #bbd8ab;
     color:#699352 ;
 }
-.clearfix{
+.h_clearfix{
     clear: both;
 }
-.active{
+.h_active{
     background-color: #bbd8ab;
     color:#699352 ;
 }
-.banBtn{
+.h_banBtn{
     border:1px solid #bbd8ab;
     color: #bbd8ab;
 }
@@ -412,7 +413,6 @@ header {
 #nextBtn{
     margin-left: 10px;
 }
-
 
 /** Order Detail (Sewoong) **/
 
