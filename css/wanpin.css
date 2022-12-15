@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Josefin+Sans:wght@600&family=Open+Sans&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Josefin+Sans:wght@600&family=Open+Sans&family=Roboto:wght@700&family=Silkscreen&display=swap');
+
+/** Header **/
+body{
+	background-color: #fefefe;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+.header_h1 {
+	background-color: #ffffff;
+	color: #430a0a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Diplomata SC', cursive;
+	text-align: center;
+	margin-top : 0;
+	margin-bottom : 0;
+}
+
+.header_ul {
+	display: flex;
+	justify-content: center;
+  
+}
+.header_li {
+	list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.header_a {
+	color: #beb7b7;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 50px;
+}
+
+
+.header_nav {
+	width: 1200px;
+	background-color: #430a0a;
+	padding-top: 10px;
+	padding-bottom: 1px;
+    margin: 0px 0px 0px 100px;
+}
+.header_nav ul li a{
+    text-decoration: none;
+    color: #beb7b7;
+}
+.header_nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #939393;
+    position: absolute;
+    bottom: -10px;
+}
+.header_nav ul li:hover::after{
+    width: 100%;
+}
+
+.header_div {
+	width: 1200px;
+	height :25px;
+	overflow: hidden;
+	background-color: #beb7b7;
+    margin: 0px 0px 0px 100px;
+
+}
+
+.header_p {
+	line-height: 25px;
+	background-color: #beb7b7;
+	font-family: 'Roboto', sans-serif;
+	color: #430a0a;
+	animation: flowing 20s linear infinite;
+}
+@keyframes flowing {
+  100% {
+    transform: translateX(100%);
+  }
+}
+/** Main **/
+/* Banner */
+.a_img1{
+	width:1200px;
+	height: 40vh;
+    padding: 2px;
+    border: 3px solid rgb(49, 49, 49);
+	background-image: -o-linear-gradient(rgba(0,0,0,0.75));
+	background-size: cover;
+	background-position: center;
+    margin: 0px 0px 0px 100px;
+
+
+}
+/* Title of "News", "New Arrivals", "Find Our Stores"  */
+.a_h2_1,.a_h2_2,.a_h2_3{
+    color:#430a0a;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #beb7b7;
+    padding: 10px;
+    margin: 20px;
+}
+/* Div tag of "News", "New Arrivals", "Find Our Stores" */
+.a_div1,.a_div2,.a_div3{
+    display: flex;
+    width: 1200px;
+    margin: 0px 0px 0px 100px;
+    padding: 10px 10px 10px;
+}
+.a_div1{
+    background-color: #beb7b7;
+}
+/* News */
+.a_img2{
+    width: 80%;
+    border-radius: 90px;
+    padding: 2px;
+    border: 3px solid rgb(49, 49, 49);
+}
+.a_fig1{
+    width: 60%;
+}
+.a_div1_2 {
+    width: 50%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px -80px;
+}
+.a_p1_1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #430a0a;
+}
+.a_p1_2{
+    font-size: 32px;
+}
+.a_p1_3{
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    border:2px solid #5ea8e1;
+    background-color: #beb7b7;
+
+}
+.a_p1_4{
+    color: #666666;
+}
+/* New Arrivals */
+.a_ul {
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 240px;
+    grid-column-gap:200px;
+    grid-row-gap:300px;
+    background-color: #beb7b7;
+    padding: 10px 140px 120px 120px;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0 0 10px;
+
+}
+
+
+.a_li1, .a_li2 ,.a_li3, .a_li4 {
+	width: 100%;
+    margin: auto;
+}
+
+.a_img3, .a_img4, .a_img5, .a_img6 {
+	width: 100%;
+    border-radius: 20px;
+    padding: 2px;
+    border: 3px solid rgb(49, 49, 49);
+}
+
+.a_p2_1, .a_p3_1, .a_p4_1, .a_p5_1 {
+    font-size: 20px;
+	font-weight: bold;
+    color:#430a0a;
+    text-align: center;
+
+}
+.a_p2_2,  .a_p3_2,  .a_p4_2,  .a_p5_2{
+    font-size: 20px;
+	font-weight: bold;
+}
+.a_p2_3,.a_p3_3,.a_p4_3,.a_p5_3 {
+    float:right;
+    width:100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: -30px;
+}
+.a_p2_4,.a_p3_4,.a_p4_4,.a_p5_4{
+    white-space: nowrap;
+    width: 6em;
+    overflow: hidden;
+    border:2px solid #5ea8e1;
+    background-color: #beb7b7;
+    margin: 10px auto;
+}
+/* Find Our Stores */
+.a_div3_2 {
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #beb7b7;
+}
+.a_img7 {
+	width: 100%;
+}
+.a_fig2 {
+	width: 50%;
+    padding: 2px;
+    border: 3px solid rgb(49, 49, 49);
+}
+
+.a_p6_1, .a_p6_3, .a_p6_5 {
+	font-size: 25px;
+	font-weight: bold;	
+    color: #430a0a;
+}
+.a_p6_3, .a_p6_5 {
+	margin-top: 20px;
+}
+.a_p6_2,.a_p6_4,.a_p6_6{
+    color: #430a0a;
+}
+/** Footer **/
+footer {
+    margin-top: 30px;
+	width: 1200px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+	color: #430a0a;
+    border-top: 3px solid #430a0a;
+	padding-top: 30px;
+	padding-bottom: 10px;
+    margin: 0px 0px 0px 100px;
+
+}
+.footer_div {
+	display: flex;
+}
+.footer_div2 {
+	width: 25%;
+	padding-left: 40px;
+}
+.footer_p1 {
+	font-size: 18px;
+    color:#430a0a;
+}
+.footer_p2 {
+	font-size: 10px;
+	color: #430a0a;
+}
+.footer_img {
+	width: 80%;
+}
+.footer_img2 {
+	width: 15px;
+}
+.footer_copyright{
+	text-align: center;	
+    color: #430a0a;
+}
