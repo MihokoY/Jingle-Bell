@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="amazon, Christmats, gift shop">
+        <title>Product details</title>
+        <link rel="stylesheet"  href="../css/external.css">
+        <link rel="stylesheet"  href="../css/external1.css">		
+		<link rel="stylesheet"  href="../css/bootstrap.css">
+        <script src="../js/jquery-3.6.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/script.js"></script>
+    </head>
+    <body>
+        <!--header-->
+		<header>
+			<h1 class="header_h1">Jingle Bell Shop</h1>
+			<nav class="header_nav">
+				<ul class="header_ul">
+					<li class="header_li"><a href="../index.html" class="header_a">Home</a></li>
+					<li class="header_li"><a href="../pages/product-list.html" class="header_a">Products</a></li>
+					<li class="header_li"><a href="../pages/about-us.html" class="header_a">About us</a></li>
+					<li class="header_li"><a href="../pages/my-order.html" class="header_a">My order</a></li>
+					<li class="header_li"><a href="../pages/register.html" class="header_a">Register</a></li>
+				</ul>
+			</nav>
+		</header>
+        <div class="g_product-container">
+            <!--breadscrum-->
+            <span class="g_link-route">
+                <a href="../index.html">Home</a> >
+                <a href="../pages/product-list.html">Product</a> >
+                <a href="../pages/product-detail.html">Product details</a>
+            </span>
+            <!--Product-details-section-->
+            <div id="product-page">
+            <!--img-->
+            <div class="g_product-img">
+                <img class="g_img" src="../images/tree3.jpg" alt="" >
+            </div>
+    
+            <!--details-->
+            <div class="g_product-details">
+                <!--title-->
+                <strong>National Tree Company Artificial Slim Christmas Tree, Green, Kingswood Fir, Includes Stand, 9 Feet</strong>
+                <span class="g_product-category">
+                    Christmas decorate - trees
+                </span>
+                <!--price-->
+                <span class="g_price">€99.99 <del>€999.00</del></span>
+                <!--details-->
+                <p class="g_small-desc">This Kingswood Fir Slim Artificial Green Christmas Tree is 9 feet tall with a 35 inch base diameter. Featuring hundreds of individually crafted branch tips to create full bodied branches, this tree is designed to look and feel lifelike.</p>
+                <!--options-->
+                <div class="g_product-type-options">
+                    <label>Trees size:</label>
+                    <select id="trees" onchange="tree3()">
+                        <option value="tree1">80cm large</option>
+                        <option value="tree2">100cm Extra-large</option>
+                        <option value="tree3">160cm Supersize</option> 
+                    </select><br>
+                    <div class="g_product-color-box">
+                        <label>Trees color:</label>
+                        <input type="radio" id="samll" value="small" name="color">
+                        <label>Yellow</label>
+                        <input type="radio" id="medium" value="medium" name="color">
+                        <label>Blue</label>
+                        <input type="radio" id="big" value="big" name="color">
+                        <label>Red</label>
+                    </div>
+                    <label for="quantity">Choose quantity (The max is 15):</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="15"><br>
+                </div>
+            <!--cart-btns-->
+            <div class="g_cart-btns">
+                <a href="../pages/check-out.html" class="add-cart">Add to Cart</a>
+                <a href="../pages/check-out.html" class="buy-now">Buy Now</a>
+            </div>
+           
+            </div>
+        </div>
+
+        </div>
+
+
+        <!--footer-->
+        <footer>
+			<div class="footer_div">
+				<div class="footer_div2">
+					<p>Where to find us</p>
+					<img class="footer_img" src="../images/address.jpg" alt=""> 
+				</div>	
+				<div class="footer_div2">
+					<p>Contact</p>
+					<a class="footer_p2" href="mailto:JingleBell@gmail.com">Jinglebell@gmail.com</a>
+					<p class="footer_p2" >+353 987 9658</p>
+					<p class="footer_p2" >8:00am - 4:00pm</p>
+					<p class="footer_p2" >Monday - Friday</p>
+					<p class="footer_p2" >Mayor Street Lower, International Financial Services Centre, Dublin 15</p>
+				</div>
+				<div class= "footer_div2">
+					<p>About Us</p>
+					<a href="pages/aboutus.html" class="footer_p2" >Our History</a><br>
+					<a href="pages/aboutus.html" class="footer_p2" >Seasonal Offer</a><br>
+					<a href="pages/aboutus.html" class="footer_p2" >Delivery</a>
+				</div>	
+				<div class= "footer_div2">
+					<p> Get Social</p>
+					<p class="footer_p2" ><img src="../images/fb.jpg" class="footer_img2" alt="">   Facebook</p>
+					<p class="footer_p2" ><img src="../images/ig.jpg" class="footer_img2" alt="">   Instagram </p>
+					<p class="footer_p2" ><img src="../images/twt.jpg" class="footer_img2" alt="">   Twitter</p>
+				</div>
+			</div>
+		    <p class="footer_copyright"> ©2022 Jingle Bell, Inc. All Rights Reserved</p>	   
+		</footer>
+
+        <!--footer-->
+    </body>
+
+
+</html>
