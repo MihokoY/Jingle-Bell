@@ -584,7 +584,6 @@ header {
   border: 1px solid lightgrey;
   border-radius: 3px;
 }
-
 .d_input {
   width: 100%;
   margin-bottom: 20px;
@@ -645,8 +644,12 @@ header {
 
 .d_button{
 	width:200px;
+	background-color: #699352;
+	width:50%;
+	position:relative;
+	right: 200px;
 
-	color:black;
+	color:white;
 	font-family: cursive;
 	border:1px;
 }
