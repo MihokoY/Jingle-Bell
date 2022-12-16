@@ -61,7 +61,7 @@ header {
 }
 @keyframes flowing {
   100% {
-    transform: translateX(100%);
+	transform: translateX(100%);
   }
 }
 
@@ -172,8 +172,6 @@ header {
 /* Slider */
 #slider {
   position: relative;
-  /* left:100px;
-  top:40px; */
   width: 500px;
   height: 265px;
   overflow: hidden;
@@ -227,13 +225,13 @@ header {
 }
 .h2_title{
     text-align: center;
-  }
+}
 .c_SeasonalOffer {
   background-color:#F7FFF3;
   text-align: justify;
   font-family:cursive;
   position:relative;
-  }
+}
 .c_Delivery {
 	background-color:#F7FFF3;
   text-align: justify;
@@ -440,13 +438,11 @@ header {
 }
 .f_td {
     padding: 8px;
-    /* line-height: 1.42857143; */
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
 .f_text-end{
     padding: 8px;
-    /* line-height: 1.42857143; */
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
@@ -459,7 +455,6 @@ header {
 	color: #699352;
 }
 .f_container {
-    /* padding-right: 15px; */
 	padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
