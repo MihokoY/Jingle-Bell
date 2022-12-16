@@ -1158,10 +1158,7 @@ header {
   flex: 25%;
 }
 
-.d_col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-}
+
 
 .d_col-75 {
   
@@ -1253,6 +1250,7 @@ header {
 	font-family: cursive;
 	border:1px solid black;
 }
+
 
 
 
