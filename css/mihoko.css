@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Open+Sans&family=Rubik+Gemstones&display=swap');
+/** Body Setting **/
+body{
+	background-color: #fb99a1;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/** Header **/
+header {
+	width: 100%;
+	box-sizing: border-box;
+	text-align:center;
+	background-color: #f83546;	
+}
+
+/* Header Title */
+.header_h1 {
+	background-color: #f83546;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Rubik Gemstones', cursive;
+	text-align: center;
+	margin-top : 0;
+	margin-bottom : 0;
+	position:relative;
+	display:inline-block;
+}
+.header_h1:before, .header_h1:after{
+	content:"";
+	display:block;
+	width:200px;
+	height:4px;
+	border-top:1px solid #111;
+	border-bottom:1px solid #111;
+	position:absolute;
+	top:50%;
+	margin-top:-2px;
+	border-color: white;
+}
+.header_h1:before{left:-224px;}
+.header_h1:after{right:-224px;}
+
+/* Header Menu */
+.header_nav {
+	width: 100%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+.header_ul {
+	display: flex;
+	justify-content: center;
+}
+.header_li {
+	list-style: "🔔";
+}
+.header_a {
+	color: #f83546;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 50px;
+}
+
+/* Header Sale Message */
+.header_div {
+	width: 100%;
+	height :25px;
+	overflow: hidden;
+	background-color: #f83546;
+}
+.header_p {
+	line-height: 25px;
+	background-color: #f83546;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	animation: blinking 1s ease-in-out infinite alternate;
+}
+@keyframes blinking {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+/** Homepage (Mihoko) **/
+/* Top Image */
+.a_img1 {
+	width: 100%;
+}
+
+/* Title of "News", "New Arrivals", "Find Our Stores" */
+.a_h2_1, .a_h2_2, .a_h2_3 {
+	background-color: #f83546;
+	color: white;
+	margin :0;
+	font-family: 'Josefin Sans', sans-serif;
+	border: dashed 2px white;
+	padding: 0.2em 0.5em;
+}
+
+/* Div tag of "News", "New Arrivals", "Find Our Stores" */
+.a_div1, .a_div2, .a_div3 {
+	display: flex;
+	padding :15px 15px 30px;
+	background-color: #fcbcc1;
+	background-image: repeating-linear-gradient(45deg, #faacb2 25%, transparent 25%, transparent 75%, #faacb2 75%, #faacb2), repeating-linear-gradient(45deg, #faacb2 25%, #fcbcc1 25%, #fcbcc1 75%, #faacb2 75%, #faacb2);
+	background-position: 0 0, 20px 20px;
+	background-size: 40px 40px;
+}
+
+/* News */
+.a_img2 {
+	width: 90%;
+	box-shadow: 15px 15px 0 green;	
+}
+.a_fig1 {
+	width: 50%;
+}
+.a_div1_2 {
+	width: 50%;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+    border-top: solid 10px green;
+    border-bottom: solid 10px green;
+}
+.a_p1_1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration-line: underline;
+}
+.a_p1_2, .a_p1_4 {
+	margin-top: 20px;
+}
+
+/* New Arrivals */
+.a_ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type:square;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.a_li1, .a_li2, .a_li3, .a_li4 {
+	width: 20%;
+	list-style : "🎄";
+}
+.a_img3, .a_img4, .a_img5, .a_img6 {
+	width: 100%;
+	border: 3px solid white;
+    box-shadow: 0 0 5px #333;
+}
+
+.a_p2_1, .a_p3_1, .a_p4_1, .a_p5_1 {
+    font-size: 20px;
+}
+.a_p2_2, .a_p3_2, .a_p4_2, .a_p5_2 {
+	font-weight: bold;
+	padding-top: 5px;
+}
+.a_p2_3, .a_p3_3, .a_p4_3, .a_p5_3 {
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+/* Find Our Stores */
+.a_div3_2 {
+	width: 50%;
+	padding-left: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.a_fig2 {
+	width: 50%;
+	padding-right: 10px;
+}
+.a_img7 {
+	width: 100%;
+	box-shadow: 15px 15px 0 green;
+}
+.a_p6_1, .a_p6_3, .a_p6_5 {
+	font-size: 25px;
+	font-weight: bold;
+	position: relative;	
+}
+.a_p6_1:after, .a_p6_3:after, .a_p6_5:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  height: 7px;
+  background: repeating-linear-gradient(-45deg, green, green 2px, white 2px, white 4px);
+}
+.a_p6_3, .a_p6_5 {
+	margin-top: 20px;
+}
+
+
+
+/** Footer **/
+footer {
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #f83546;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Footer Div tag */
+.footer_div {
+	display: flex;
+}
+.footer_div2 {
+	width: 25%;
+	padding-left: 40px;
+}
+
+/* Footer Texts */
+.footer_p1 {
+	font-size: 16px;
+	text-decoration-line: underline;
+}
+.footer_p2 {
+	font-size: 12px;
+	color: white;
+}
+
+/* Footer Map Image */
+.footer_img {
+	width: 80%;
+}
+
+/* Footer Social Images */
+.footer_img2 {
+	width: 15px;
+}
+
+/* Footer Copyright */
+.footer_copyright{
+	text-align: center;	
+}
