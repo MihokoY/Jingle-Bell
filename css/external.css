@@ -1164,7 +1164,7 @@ header {
 }
 
 .d_col-75 {
-  -ms-flex: 75%; /* IE10 */
+  
   flex: 75%;
 }
 
@@ -1175,16 +1175,21 @@ header {
 }
 
 .d_container {
-  background-color: #f2f2f2;
+  background-color: mintcream;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
-  border-radius: 3px;
+  border-radius: 5px;
+  height:700px;
+ position:relative;
+ margin:50px;
+ padding:20px;
+
 }
 .d_input {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid;
   border-radius: 3px;
 }
 
@@ -1211,6 +1216,8 @@ header {
   background-color: #45a049;
 }
 
+
+
 @media (max-width: 800px) {
   .d_row {
     flex-direction: column-reverse;
@@ -1229,22 +1236,22 @@ header {
         color: gray;
         cursor: pointer;
         border: 1px solid aqua;
-        border-radius: 3px;
 		position:relative;
-		top:-2px;
+		top:-10px;
 		left: 700px;
 }
 
 .d_button{
-	width:200px;
+	
 	background-color: #699352;
-	width:50%;
+	width:80%;
 	position:relative;
-	right: 200px;
+	right: 0px;
+	bottom:0px;
 
 	color:white;
 	font-family: cursive;
-	border:1px;
+	border:1px solid black;
 }
 
 
