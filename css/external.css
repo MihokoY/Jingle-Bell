@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Roboto:wght@700&display=swap');
 
-/** Body Setting **/
+/** Body Setting (Common) **/
 body{
 	background-color: #F7FFF3;
 	font-family: 'Roboto', sans-serif;
 }
 
-/** Header **/
+/** Header (Common) **/
 header {
 	width: 100%;
 	box-sizing: border-box;	
@@ -64,6 +64,9 @@ header {
     transform: translateX(100%);
   }
 }
+
+
+
 
 
 /** Homepage (Mihoko) **/
@@ -153,11 +156,11 @@ header {
 
 
 
+
 /** About Us (Naransuvd) **/
 .c_card {
   padding: 1rem;
 }
-
 .c_cards {
   max-width: 1200px;
   margin: 0 auto;
@@ -166,8 +169,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-/** Slider **/
-
+/* Slider */
 #slider {
   position: relative;
   /* left:100px;
@@ -218,15 +220,11 @@ header {
 #slider #next {
   right: 10px;
 }
-
-
-
 .c_OurHistory {
   background-color:#F7FFF3;
   font-family:cursive;
   text-align: justify;
-	}
-
+}
 .h2_title{
     text-align: center;
   }
@@ -239,35 +237,21 @@ header {
 .c_Delivery {
 	background-color:#F7FFF3;
   text-align: justify;
-   font-family:cursive;
-  /* width:40%;
-  height:20px; */
+   font-family:cursive;  
   position:relative;
-  /* left:700px;
-  bottom:100px; */
-
-  
 }
-
 .c_rectangle {
   height: 80px;
   width: 1300px;
   right:-30px;
   bottom:-300px;
-  background-color: #699352;
-  
-
-  
+  background-color: #699352; 
+}
+.c_post_img{	
+    width: 550px;
+    position:relative;
 }
 
-.c_post_img{
-	/* width:30%;
-	height:30%; */
-  width: 550px;
-	position:relative;
-	/* bottom:100px;
-	right:-100px; */
-}
 
 
 
@@ -325,7 +309,7 @@ header {
 .h_tab-active{
         border-top: 4px solid #699352;
         transition: all ease 0.2s;
-    }
+}
 /*--order list--*/
 .h_order-list{
     display: block;
@@ -343,7 +327,6 @@ header {
     margin: 20px;
     text-align: justify;
 }
-
 .h_order-list .h_button{
     font-size: 14px;
     margin: 0px 200px 150px 400px;
@@ -364,7 +347,6 @@ header {
 .h_button:hover{
     background-color: #c3ab3d;
     border: 2px solid #c3ab3d;
-
 }
 /*--page number--*/
 .h_end{
@@ -377,7 +359,6 @@ header {
     border: 2px solid #699352;
     margin: 20px 100px 20px 50px;
 }
-
 .over,.pageItem{
     float: left;
     display: block;
@@ -386,7 +367,6 @@ header {
     line-height: 35px;
     text-align: center;
 }
-
 .pageItem{
     border: 1px solid #699352;
     text-decoration: none;
@@ -413,6 +393,8 @@ header {
 #nextBtn{
     margin-left: 10px;
 }
+
+
 
 
 
@@ -446,39 +428,33 @@ header {
     text-indent: initial;
     border-spacing: 2px;
 }
-
 .f_tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
 }
-
 .f_tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
-
 .f_td {
     padding: 8px;
     /* line-height: 1.42857143; */
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
-
 .f_text-end{
     padding: 8px;
     /* line-height: 1.42857143; */
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
-
 .f_tfoot {
     display: table-footer-group;
     vertical-align: middle;
     border-color: inherit;
 }
-
 .f_text-reset{
 	color: #699352;
 }
@@ -490,11 +466,9 @@ header {
     margin-left: auto;
 	width: 1170px;
 }
-
 .f_badge {
     background-color: #dff0d8;
 }
-
 .f_badge{
 	display: inline-block;
     min-width: 10px;
@@ -509,14 +483,12 @@ header {
     background-color: #777;
     border-radius: 10px;
 }
-
 .f_col-lg-6 {
     width: 50%;
 	float: left;
 	position: relative;
     left: 10px;
 }
-
 .f_h2{
 	font-size: 30px;
 	margin-top: 20px;
@@ -526,7 +498,6 @@ header {
     line-height: 1.1;
     color: inherit;
 }
-
 .f_h6 {
     font-size: 22px;
 	margin-top: 10px;
@@ -541,28 +512,22 @@ header {
 
 
 
-
 /** Product List (Sewoong) **/
 .e_main{
 	background-color: #f7fff3;
 }
-
 .e_price {
   color: grey;
   font-size: 22px;
 }
-
 .e_img{
-	aspect-ratio: 16/12;
-	
+	aspect-ratio: 16/12;	
 }
 /*tree*/
-
 .e_head-tree{
 	color: #699352;
 	text-align: center;
 }
-
 .e_tree{
 	display: flex;
 	justify-content: center;
@@ -579,7 +544,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_tree1 button {
   border: none;
   outline: 0;
@@ -591,7 +555,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_tree1 button:hover {
   opacity: 0.7;
 }
@@ -604,7 +567,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_tree2 button {
   border: none;
   outline: 0;
@@ -616,7 +578,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_tree2 button:hover {
   opacity: 0.7;
 }
@@ -629,7 +590,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_tree3 button {
   border: none;
   outline: 0;
@@ -641,7 +601,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_tree3 button:hover {
   opacity: 0.7;
 }
@@ -654,7 +613,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_tree4 button {
   border: none;
   outline: 0;
@@ -666,7 +624,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_tree4 button:hover {
   opacity: 0.7;
 }
@@ -677,15 +634,12 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-wrap:wrap; 
-	gap:10px;
-	
+	gap:10px;	
 }
 
 .e_head-toy{
 	color: #699352;
-	text-align: center;
-
-	
+	text-align: center;	
 }
 
 /*toy1*/
@@ -696,7 +650,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_toy1 button {
   border: none;
   outline: 0;
@@ -708,7 +661,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_toy1 button:hover {
   opacity: 0.7;
 }
@@ -721,7 +673,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_toy2 button {
   border: none;
   outline: 0;
@@ -733,7 +684,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_toy2 button:hover {
   opacity: 0.7;
 }
@@ -746,7 +696,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_toy3 button {
   border: none;
   outline: 0;
@@ -758,7 +707,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_toy3 button:hover {
   opacity: 0.7;
 }
@@ -771,7 +719,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_toy4 button {
   border: none;
   outline: 0;
@@ -783,7 +730,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_toy4 button:hover {
   opacity: 0.7;
 }
@@ -794,15 +740,11 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-wrap:wrap; 
-	gap:10px;
-	
+	gap:10px;	
 }
-
 .e_head-decoration{
 	color: #699352;
-	text-align: center;
-
-	
+	text-align: center;	
 }
 
 /*decoration1*/
@@ -813,7 +755,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_decoration1 button {
   border: none;
   outline: 0;
@@ -825,7 +766,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_decoration1 button:hover {
   opacity: 0.7;
 }
@@ -838,7 +778,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_decoration2 button {
   border: none;
   outline: 0;
@@ -850,7 +789,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_decoration2 button:hover {
   opacity: 0.7;
 }
@@ -863,7 +801,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_decoration3 button {
   border: none;
   outline: 0;
@@ -875,7 +812,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_decoration3 button:hover {
   opacity: 0.7;
 }
@@ -888,7 +824,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_decoration4 button {
   border: none;
   outline: 0;
@@ -900,7 +835,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_decoration4 button:hover {
   opacity: 0.7;
 }
@@ -913,12 +847,9 @@ header {
 	flex-wrap:wrap; 
 	gap:10px;
 }
-
 .e_head-food{
 	color: #699352;
-	text-align: center;
-
-	
+	text-align: center;	
 }
 
 /*food1*/
@@ -929,7 +860,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_food1 button {
   border: none;
   outline: 0;
@@ -941,7 +871,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_food1 button:hover {
   opacity: 0.7;
 }
@@ -954,7 +883,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_food2 button {
   border: none;
   outline: 0;
@@ -966,7 +894,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_food2 button:hover {
   opacity: 0.7;
 }
@@ -979,7 +906,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_food3 button {
   border: none;
   outline: 0;
@@ -991,7 +917,6 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_food3 button:hover {
   opacity: 0.7;
 }
@@ -1004,7 +929,6 @@ header {
   text-align: center;
   font-family: arial;
 }
-
 .e_food4 button {
   border: none;
   outline: 0;
@@ -1016,10 +940,10 @@ header {
   width: 100%;
   font-size: 18px;
 }
-
 .e_food4 button:hover {
   opacity: 0.7;
 }
+
 
 
 
@@ -1078,7 +1002,6 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 .g_product-details strong{
     color: #333;
     font-size: 2.0rem;
@@ -1130,7 +1053,6 @@ header {
     height: 40px;
     line-height: 35px;
     border-radius: 20px;
-
 }
 .g_cart-btns .buy-now{
     background-color: #992153;
@@ -1140,8 +1062,10 @@ header {
     height: 40px;
     border-radius: 20px;
     line-height: 35px;
-
 }
+
+
+
 
 
 /** Check Out (Naransuvd) **/
@@ -1152,25 +1076,18 @@ header {
   flex-wrap: wrap;
   margin: 0 -16px;
 }
-
 .d_col-25 {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
 }
-
-
-
-.d_col-75 {
-  
+.d_col-75 {  
   flex: 75%;
 }
-
 .d_col-25,
 .d_col-50,
 .d_col-75 {
   padding: 0 16px;
 }
-
 .d_container {
   background-color: mintcream;
   padding: 5px 20px 15px 20px;
@@ -1180,7 +1097,6 @@ header {
  position:relative;
  margin:50px;
  padding:20px;
-
 }
 .d_input {
   width: 100%;
@@ -1189,14 +1105,10 @@ header {
   border: 1px solid;
   border-radius: 3px;
 }
-
 .d_label {
   margin-bottom: 10px;
   display: block;
 }
-
-
-
 .d_btn {
   background-color: #699352;
   color: white;
@@ -1208,26 +1120,19 @@ header {
   cursor: pointer;
   font-size: 17px;
 }
-
 .d_btn:hover {
   background-color: #45a049;
 }
 
-
-
 @media (max-width: 800px) {
   .d_row {
     flex-direction: column-reverse;
-  }
-  
+  } 
 }
-
-
 .d_code-dropdown{
 	 appearance: none;
         outline: 0;
-        color: aqua;
-      
+        color: aqua;      
         width: 20%;
         height: 100%;
         color: gray;
@@ -1237,19 +1142,19 @@ header {
 		top:-10px;
 		left: 700px;
 }
-
-.d_button{
-	
+.d_button{	
 	background-color: #699352;
 	width:80%;
 	position:relative;
 	right: 0px;
 	bottom:0px;
-
 	color:white;
 	font-family: cursive;
 	border:1px solid black;
 }
+
+
+
 
 
 /** Register (Mihoko) **/
@@ -1311,7 +1216,8 @@ header {
 
 
 
-/** Footer **/
+
+/** Footer (Common) **/
 footer {
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
