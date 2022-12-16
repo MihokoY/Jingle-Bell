@@ -1145,6 +1145,19 @@ header {
 
 
 /** Check Out (Naransuvd) **/
+form .d_col-50{
+    width: 50%;
+    padding: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form .d_col-50 *{
+	box-sizing: border-box;
+	width:50px;
+}
+
+
 .d_row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
