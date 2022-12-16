@@ -3,7 +3,7 @@
 function validate() {    
     var fname = document.register.fname;    
     var lname = document.register.lname;
-	var checked_gender = document.querySelector('input[name = "gender"]:checked'); 			
+    var checked_gender = document.querySelector('input[name = "gender"]:checked'); 			
     var address = document.register.address;    
     var email = document.register.email;    
     var mobile = document.register.mobile;    						
@@ -36,14 +36,14 @@ function validate() {
         alert("Mobile number is required.");    
         mobile.focus();    
         return false;  
-	}
-	else{
-		alert("Thank you for your register!!!\nDiscount code is JINGLE BELL :)");
-	}
+    }
+    else{
+	alert("Thank you for your register!!!\nDiscount code is JINGLE BELL :)");
+    }
 }
 
 /** product-detail (Wanpin) **/
 /*--product-detail- alrms--*/
 function tree3(select){
     alert("Please make sure: This is biggest tree");
-   }
+}
